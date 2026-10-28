@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(239, 235, 232);
+    color: rgb(112, 111, 111);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#control{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-areas: 
+    "box-1 box-1 box-1 box-2"
+    "box-1 box-1 box-1 box-3"
+    "box-4 box-4 box-5 box-5"
+    "box-4 box-4 box-6 box-7";
+    gap: 20px;
+    
+    
+}
+
+#team{
+
+    border: 1px solid white;
+    box-shadow: 0, 0, 0, 10px rgba(red, green, blue, alpha)(0 0 0 0 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#mate{
+    border: 1px solid white;
+    box-shadow: 0, 0, 0, 10px rgba(red, green, blue, alpha)(0 0 0 0 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(18, 17, 17);
+    color: white;
+
+}
+
+#ever{
+    border: 1px solid white;
+    box-shadow: 0, 0, 0, 10px rgba(red, green, blue, alpha)(0 0 0 0 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    height: 500px;
+    background-color: white;
+}
+
+#river{
+    border: 1px solid white;
+    box-shadow: 0, 0, 0, 10px rgba(red, green, blue, alpha)(0 0 0 0 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    height: 300px;
+    background-color: white;
+}
+
+header{
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+header h2{
+    font-weight: 170;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bet{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#era{
+    color: rgb(17, 107, 17)
+}
+
+#school{
+    color: rgb(223, 219, 214);
+    font-weight: 170;
+}
+
+#skin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+#miss{
+    padding-bottom: 10px;
+    padding-top: 320px;
+    
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#night{
+    padding-top: 15px;
+}
+
+#want{
+   gap: 40px; 
+    
+}
+
+#harder{
+    padding-top: 100px;
+}
+
+#wide{
+    padding-top: 15px;
+}
+
+#command{
+    padding-top: 80px;
+}
+
+#tem{
+    height: 194px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: white;
+
+}
+
+
+
+#night{
+    display: flex;
+    gap: 10px;
+}
+
+#offa{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+#feel{
+   padding-top: 55px;
+   padding-left: 105px;
+}
+
+#ever :hover{
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+#team :hover{
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+#tem :hover{
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+#mate{
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+#bet p:hover{
+    background-color: rgb(146, 146, 242);
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#else h2:hover{
+   color: rgb(246, 38, 38);
+}
+
+#bet button{
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    
+}
+#green-dot {
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background-color: rgb(1, 16, 1);
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+    
+
